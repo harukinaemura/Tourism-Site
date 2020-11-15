@@ -1,190 +1,181 @@
 <!DOCTYPE html>
-<html>
-  <html lang="ja">
+<html lang="ja">
 <head>
-  <meta charset="utf-8">
-  <title>Haruki's portfolio</title>
-  <link rel="stylesheet" href="stylesheet.css">
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <script src=" js/jquery-3.5.1.min.js"></script>
-  <script src="js/query-3.4.1.minのコピー.js"></script>
-  <script src="js/my_script.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism Site</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/my_script.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
 </head>
+
 <body>
-  <header>
-  </header>
-  <main>
-   <div class="top-wrapper">
-    <div class="container">
-        <h1>HarukiNaemura's<br>Portfolio</h1>
-    </div>
-   </div>
-   <div class="lesson-wrapper">
-      <div class="container">
-        <div class="gnav">
-          <ul>
-            <li><a href="#PROFILE">PROFILE</a></li>
-            <li><a href="#SKILL">SKILL</a></li>
-            <li><a href="#WORKS">WORKS</a></li>
-            <li><a href="#service">SERVICE</a></li>
-            <li><a href="#CONTACT">CONTACT</a></li>
-          </ul>
-        </div>        
-        <div class="heading" id="PROFILE">
-          <h2>PROFILE</h2> 
-          <ul>
-            <li>名前:　苗村　晴基</li>
-          　 <li>学歴:　洛南高校　→　滋賀大学</li>
-        　  <li>出身:　滋賀県</li>
-          </ul>
-          <p class="text">
-            　はじめまして。エンジニアのはるきと申します。滋賀大学の学生をしています。<br>
-            　大学では、部活動をしており最後までやり遂げる熱意は、誰にも負けないです。<br>
-              また、自分が一度引き受けた仕事については、一生懸命やり遂げる自信があり<br>
-              ます。これまでも、WEB制作に何度か携わってきましたがその全てにおいて最<br>
-              後までやり遂げておりクライアントから満足いただいております。
-        </div>  　
-      </div>
-      <div class="SKILL" id="SKILL">
-        <h2>SKILL</h2> 
-        <div class="SKILL-top">
-          <h3>コーディング</h3>
-          <div class="SKILL-contents">
-            <p>基本的な事は一通りできます。HTML,CSS,JQuaryを使い、WEB制作をしてきました。</p> 
-            <ul>
-               <li>技術</li>
-               <li>HTML</li>
-               <li>CSS</li>
-               <li>JQuary</li>
-               
-            </ul>  
-            <ul>
-              <li>経験年数</li>
-              <li>1年</li>
-              <li>1年</li>
-              <li>1年</li>
-              
-            </ul> 
-            <ul>
-              <li>スキル</li>
-              <li>★★★★☆</li>
-              <li>★★★★☆</li>
-              <li>★★★★☆</li>
-              
-            </ul>
-          </div>           
-        </div>
-      </div>
-      <div class="service" id="service">
-        <h2>SERVICE</h2>
-        <div class="service-top">
-            <div class="cording">
-              <h3>コーディング</h3>
-              <div class="cording-serv1">
+        <!-- ここにページの内容を書いていく -->
+        <header>
+            <div class="header-left">
+                <div id="site_logo">
+                    <h1><img src="images/IMG_5035のコピー.JPG"></h1>
+                </div>
+            </div>
+            <div class="header-right">
                 <ul>
-                  <li>トップページコーディング</li>
-                  <li>1P ¥ 25,000～</li>
-                  <li>コンテンツの企画提案、画面設計・構成（ワイヤーフレーム)の考案・作成を行います。<br>
-                    ホームページのベースとなるデザインです。ボリュームに応じて料金は変動いたします。<br>
-                    最小ボリュームは、ヘッダーメニュー・メイン画像・メイン文章・フッターという構成になります。
-                  </li>
+                    <li><a href="https://forms.gle/sYusbdbxTRA3wSjJA">お問い合わせ</a></li>
+                    <li><a href="#Prefecture-OSAKA">大阪府</a></li>
+                    <li><a href="#Prefecture-KYOTO">京都府</a></li>
+                    <li><a href="#Prefecture-HYOGO">兵庫県</a></li>
+                    <li><a href="#Prefecture-NARA">奈良県</a></li>
+                    <li><a href="#Prefecture-SHIGA">滋賀県</a></li>
+                    <li><a href="#Prefecture-WAKAYAMA">和歌山県</a></li>
+                    <li><a href="#summarize">まとめ</a></li>     
+                </ul>
                 
+            </div>
+            
+        </header>
+    
+        <main>
+            <!-- メインイメージエリア -->
+            <div class="Title">
+                <h1>関西の観光サイトまとめ</h1>
+                <img src="images/IMG_5041のコピー.JPG" alt="#">
+            </div>
+            <div class="text">関西の２府４県ではそんな旅行者を呼び込もうとPRしています。有名な観光地から地元ならではの穴場や隠れた逸品まで豊富な情報が目を引き、旅行意欲を刺激する色鮮やかなホームページが魅力的です。<br>
+            というわけで、今回ご紹介するのは関西の２府４県の観光サイトです。
+            </div>    
+            <div class="nav">    
+                <ul id="spnavi">
+                    <li id="drop_menu_text">
+                       『もくじ』
+                    </li>
                 </ul>
-              </div> 
-              
-              <div class="cording-serv2"> 
-                <ul>
-                  <li>下層ページコーディング雛型</li>
-                  <li>1P ¥15,000～</li>
-                  <li>全下層ページのベースとなるデザインです。ボリュームに応じて料金は変動いたします。<br>
-                    制作会社様・広告代理店様のご依頼で、下層ページ雛型がすでにある場合はカットします。</li>
-                </ul>
-              </div> 
-              <div class="cording-serv3"> 
-                <ul>
-                  <li>下層ページコーディング</li>
-                  <li>1P ¥8,000～</li>
-                  <li>使用写真10枚程度まで。文章量A4用紙1枚程度の作業量を基本とします。</li>
-                </ul>
+                <ul id="drop_menu_hidden">
+                    <li><a href="#Prefecture-OSAKA">大阪府</a></li>
+                    <li><a href="#Prefecture-KYOTO">京都府</a></li>
+                    <li><a href="#Prefecture-HYOGO">兵庫県</a></li>
+                    <li><a href="#Prefecture-NARA">奈良県</a></li>
+                    <li><a href="#Prefecture-SHIGA">滋賀県</a></li>
+                    <li><a href="#Prefecture-WAKAYAMA">和歌山県</a></li>
+                    <li><a href="#summarize">まとめ</a></li>
+                </ul> 
+                
+            </div>           
+            <!-- 紹介エリア -->
+            <div class="Prefecture-aria">   
+                <div class="Prefecture-OSAKA" id="Prefecture-OSAKA">
+                    <div class="Prefecture-title">
+                        <h1>大阪府『OSAKA-INFO』</h1>
+                    </div>
+                    
+                    <img src="images/IMG_0167.PNG" alt="#"><br>
+                    <a href="http://www.osaka-info.jp/jp/">http://www.osaka-info.jp/jp/</a>
+                    <p>大阪の観光情報を一ヵ所で集めることができると好評なのが情報サイト「OSAKA-INFO」です。<br>
+                        大阪の基礎知識や大阪でできることを中心にさまざまなジャンルの観光情報を取り揃えています。<br>
+                        電車乗り換えや観光ルートまで観光客にとって役立つ情報が満載なのが魅力です。
+                    </p>
+                </div>
+            
 
-              </div>
-            </div>
-            <div class="option">
-              <h3>オプション</h3>
-              <div class="otption-serv1">
-                <ul>
-                  <li>スマートフォンサイト制作 </li>
-                  <li>都度お見積り</li>
-                  <li>内容やページ数によって大幅に変わりますので、<br
-                    >まずはご相談ください。</li>
-                </ul>
-              </div>
-              <div class="otption-serv2">
-                <ul>
-                  <li>地図作成</li>
-                  <li>¥ 5,000～</li>
-                  <li>内容によって大幅に変わります。</li>
-                </ul>
-              </div>
-              <div class="otption-serv3">
-                <ul>
-                  <li> お急ぎ制作</li>
-                  <li>通常料金の30%～50%割増</li>
-                  <li>こちらが提示したスケジュールよりも早く制作されたい場合<br>
-                    ※スケジュール状況によって、お受けできない場合がございます。</li>
-                </ul>
-              </div>
-            </div>
-          <div class="sport">
-            <h4>公開後サポート</h4>
-            <div class="sport-serv1">
-              <ul> 
-                <li> テキスト修正・追加</li>
-                <li>¥ 1,650～</li>
-                <li>内容によって大幅に変わります。他社様で制作されたサイトは、初期費用16,000円（税抜）をいただきます 。</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      <div class="WORKS" id="WORKS">
-         <h2>WORKS</h2> 
-          <div class="WORKS-top">
-            <p>WEB制作</p> 
-            <ul>
-              <li><a href="https://harukinaemura.github.io/Tourism-Site/"><img src="IMG_6105.JPG">
-                観光サイト</a></li>
-            </ul>
-          </div>
-      </div>
-      <div class="CONTACT" id="CONTACT">
-        <h2>CONTACT</h2> 
-        <div class="CONTACT-top">
-          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfKdi1kjbvRpjymVXsblTuPrWn2oDZu-kJplMG19sBVNmIJGQ/viewform?embedded=true" width="640" height="975" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
-        </div>　
-      </div>
-    </div>
-   </div>
-   <!-- PageTopボタン -->
-   <div class="page-top">
-    <img src="page_topのコピー.gif" alt="ページトップボタン">
-   </div>
-</div>
+                <div class="Prefecture-KYOTO" id="Prefecture-KYOTO">    
+                    <div class="Prefecture-title">
+                        <h1>京都府「京都府観光ガイド</h1>
+                    </div>
+                    
+                    <img src="images/IMG_0166.PNG" alt="#"><br>
+                    <a href="http://www.kyoto-kankou.or.jp/season/">http://www.kyoto-kankou.or.jp/season/</a>
+                    <p>京都府観光連盟公式サイトでは、季節ごとに美しく咲く花の特集や海水浴・花火大会などのイベント情報について紹介しているので、<br>
+                        最も美しく魅力的な時期を調べることができます。
 
-  </main>
-  <footer>
-    <div class="container"> 
-      <id class="footer-gnav">
-        <ul>
-          <li><a href="#PROFILE">PROFILE</a></li>
-          <li><a href="#SKILL">SKILL</a></li>
-          <li><a href="#service">SERVICE</a></li>
-          <li><a href="#WORKS">WORKS</a></li>
-          <li><a href="#CONTACT">CONTACT</a></li>
-        </ul>
-        <p>Copyright©Haruki Naemura. All Rights Reserved.</p>
-      </div> 
-    </div>
-  </footer>
+                    </p>
+                </div>   
+
+                <div class="Prefecture-HYOGO" id="Prefecture-HYOGO">
+                    <div class="Prefecture-title">
+                        <h1>兵庫県「ひょうごツーリズムガイド」</h1>
+                    </div>
+                    
+                    <img src="images/IMG_0168.PNG" alt="#"><br>
+                    <a href="http://www.hyogo-tourism.jp/">http://www.hyogo-tourism.jp/</a>
+                    <p>明石海峡大橋や神戸の夜景で人気の兵庫県は人気の観光エリアのひとつです。年中イベントや季節の特集も豊富なので、<br>
+                        情報サイトを参考にニーズに合わせた観光スポットを選ぶことができます
+                    </p>
+                </div>
+
+                <div class="Prefecture-NARA" id="Prefecture-NARA">
+                    <div class="Prefecture-title">
+                        <h1>奈良県「なら旅ネット」</h1>
+                    </div>
+                    
+                    <img src="images/IMG_0170.PNG" alt="#"><br>
+                    <a href="http://yamatoji.nara-kankou.or.jp/">http://yamatoji.nara-kankou.or.jp/</a>
+                    <p>柿の葉寿司や地酒など奈良ならではのグルメや特産品の情報も手に入れることができます。<br>
+                        また、日替わりトピックスも掲載しているので奈良県の魅力を毎日見ることができます。<br>
+                        奈良県の癒しスポットや奈良駅周辺の観光スポットも紹介しているので、情報集めにぴったりのサイトです
+                    </p>
+                </div>
+
+                <div class="Prefecture-SHIGA" id="Prefecture-SHIGA">
+                    <div class="Prefecture-title">
+                        <h1>滋賀県「滋賀・びわ湖」</h1>
+                    </div>
+                    
+                    <img src="images/IMG_0165.PNG" alt="#"><br>
+                    <a href="https://www.biwako-visitors.jp/">https://www.biwako-visitors.jp/</a>
+                    <p>滋賀県にはビワイチ観光ウォーキングやびわ湖一周ツアーなどびわ湖にちなんだ観光がたくさんあります。<br>
+                        おすすめの観光スポットや滋賀県へのアクセス方法など、観光に必要な情報を一ヵ所で知ることができるのでとても便利です。
+                    </p>
+                </div>
+
+                <div class="Prefecture-WAKAYAMA" id="Prefecture-WAKAYAMA">
+                    <div class="Prefecture-title">
+                        <h1>和歌山県「わかやま観光情報」</h1>
+                    </div>
+                    
+                    <img src="images/IMG_0171.PNG" alt="#"><br>
+                    <a href="https://www.wakayama-kanko.or.jp/">https://www.wakayama-kanko.or.jp/</a>
+                    <p>アニメ・サイクリング・鉄道などさまざまな魅力がある和歌山県には、体験型の観光スポットがたくさんあります。<br>
+                        体験できる観光スポットの特集やご当地グルメ情報をたっぷりと紹介しているので、<br>
+                        初めて和歌山を訪れる人にもおすすめのサイトです。
+                    </p>
+                </div>
+            </div>
+
+            
+            <section id="summarize">
+                <div class="container">
+                    <h2>まとめ</h2>
+                    <p>近畿の観光サイト、いかがでしたか？<br>
+
+                        観光スポットやグルメ、特産品などに加え歴史を感じるものもあり見ると出かけたくなるものばかりですね。<br>
+                        
+                        
+                        余暇を過ごす機会が増えた今だからこそ、お気に入りのまちを訪ねてみませんか。
+                    </p>
+                </div>
+            </section>
+            <!-- PageTopボタン -->
+            <div class="page-top">
+                <img src="images/page_topのコピー.gif" alt="ページトップボタン">
+            </div>
+        </main>
+        <footer>
+            <div class="footer-left">
+               
+                <ul>
+                    <li>もくじ</li>
+                    <li><a href="#Prefecture-OSAKA">大阪府</a></li>
+                    <li><a href="#Prefecture-KYOTO">京都府</a></li>
+                    <li><a href="#Prefecture-HYOGO">兵庫県</a></li>
+                    <li><a href="#Prefecture-NARA">奈良県</a></li>
+                    <li><a href="#Prefecture-SHIGA">滋賀県</a></li>
+                    <li><a href="#Prefecture-WAKAYAMA">和歌山県</a></li>   
+                </ul>
+            </div>
+            <div class="footer-right">
+                <p><a href="https://forms.gle/sYusbdbxTRA3wSjJA">お問い合わせ</a>
+                   
+            </div>
+        </footer>
 </body>
 </html>
