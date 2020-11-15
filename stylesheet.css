@@ -1,0 +1,442 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(宇宙.jpeg);
+  
+  color: gold;
+  text-align: center;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+ 
+.gnav {
+  font-size: 25px;
+}
+
+.gnav ul {
+  padding-bottom: 250px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.gnav li{
+  padding: 0 15px;
+  display: inline-block;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 15px;
+}
+
+.lesson-wrapper {
+  background-color: #f7f7f7;
+  
+}
+
+.heading {
+ 
+}
+
+.heading h2 {
+  font-size: 40px;
+  padding-bottom: 50px;
+  text-align: center;
+  
+}
+
+.heading ul {
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+
+
+.heading p {
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+  text-align: center;
+ 
+}
+
+.SKILL {
+  font-size: 40px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  background-color: #f7f7f7;
+}
+
+.SKILL h2 {
+  font-weight: normal;
+  background-color: #f7f7f7;
+  padding-bottom: 50px;
+  text-align: center;
+  
+}
+
+.SKILL p {
+  font-size: 25px;
+  text-align: justify;
+  text-align: center;
+  
+}
+
+.SKILL-top {
+  font-size: 30px;
+  background-color: #fff;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+}
+
+.SKILL-top h3{
+  font-size: 30px;
+  padding: 20px 100px;
+  text-align: center;
+}
+
+.SKILL-top p {
+  text-align: justify;
+  text-align: center;
+  padding: 20px 100px;
+}
+
+.SKILL-contents {
+  width: 100%;
+  
+}
+
+.SKILL-contents li{
+  
+  text-align: center;
+}
+
+.SKILL-contents ul{
+  display: inline-block;
+  padding-bottom: 50px;
+  text-align: center;
+  padding-left: 220px;
+} 
+
+.service {
+  background-color: #f7f7f7;
+}
+
+.service-top {
+  padding-left: 70px;
+}
+
+.service h2 {
+  font-size: 40px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+
+.cording {
+  background-color: #fff;
+  width: 95%;
+  padding-bottom: 20px;
+  
+}
+
+.cording h3 {
+  padding-top: 20px;
+  font-size: 20px;
+  padding-bottom: 20px;
+  color: aquamarine;
+  text-align: center;
+}
+
+.cording-serv1 ul {
+  padding-top: 30px;
+  padding-bottom: 100px;
+  padding-left: 150px;
+  border-bottom: solid 1px silver;
+  
+}
+
+.cording-serv2 ul {
+   padding-top: 100px;
+   padding-left: 150px;
+   padding-bottom: 100px;
+   border-bottom: solid 1px silver;
+   
+}
+
+.cording-serv3 ul  {
+  padding-top: 100px;
+  padding-left: 150px;
+  padding-bottom: 50px;
+  border-bottom: solid 1px silver;
+  
+}
+
+.cording-serv1 li {
+  float: left;
+  padding-left: 20px;
+  padding-right: 10px;
+  border-left: 1px solid #333;
+  
+}
+
+.cording-serv2 li {
+    float: left;
+    padding-left: 20px;
+    padding-right: 10px;
+    border-left: 1px solid #333;
+  
+}
+    
+
+.cording-serv3 li {
+  float: left;
+  padding-left: 20px;
+  padding-right: 10px;
+  border-left: 1px solid #333;
+  
+}
+
+.option {
+  background-color: #fff;
+  width: 95%;
+  padding-top: 20px;
+}
+
+.option h3 {
+    padding-top: 20px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: aquamarine;
+    text-align: center;
+}
+
+
+
+.otption-serv1 ul{
+  padding-top: 50px;
+  padding-left: 150px;
+  padding-bottom: 100px; 
+  border-bottom: solid 1px silver;
+}
+.otption-serv2 ul{
+  padding-top: 50px;
+  padding-left: 150px;
+  padding-bottom: 100px; 
+  border-bottom: solid 1px silver;
+}
+.otption-serv3 ul{
+  padding-top: 50px;
+  padding-left: 150px;
+  padding-bottom: 100px;
+  border-bottom: solid 1px silver;
+}
+
+.otption-serv1 li{
+  float: left;
+  padding-left: 20px;
+  padding-right: 10px;
+  border-left: 1px solid #333;
+  
+}
+
+.otption-serv2 li{
+  float: left;
+  padding-left: 20px;
+  padding-right: 10px;
+  border-left: 1px solid #333;
+  
+}
+.otption-serv3 li{
+  float: left;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 10px;
+  border-left: 1px solid #333;
+}
+
+.sport {
+  background-color: #fff;
+  width: 95%;
+  padding-bottom: 30px;
+}
+.sport h4 {
+  padding-top: 20px;
+  font-size: 20px;
+    padding-bottom: 20px;
+    color: aquamarine;
+    text-align: center;
+}
+
+.sport-serv1 ul {
+  padding-top: 50px;
+  padding-left: 150px;
+  padding-bottom: 100px;
+  border-bottom: solid 1px silver;
+}
+
+.sport-serv1 li{
+  float: left;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 10px; 
+  border-left: 1px solid #333;
+  
+}
+.WORKS {
+  font-size: 40px;
+  padding-top: 250px;
+  padding-bottom: 50px;
+  background-color:  #f7f7f7;
+} 
+
+
+
+.WORKS h2 {
+  font-size: 40px;
+  padding-bottom: 50px;
+}
+
+
+
+.WORKS-top {
+  font-size: 30px;
+  background-color: #fff;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+
+
+.WORKS-top p{
+  
+  padding-bottom: 30px;
+  
+}
+
+.WORKS-top img {
+  border-radius: 100px;
+}
+
+.WORKS-top li{
+  display: inline-block;
+  background-color: aquamarine;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: underline;
+  border-radius: 20px;
+}
+
+.WORKS-top ul{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.WORKS-top ul img{
+  height: 200px;
+  width: 200px;
+}
+
+.CONTACT {
+  font-size: 40px;
+  
+  
+  background-color: #f7f7f7;
+}
+
+.CONTACT h2{
+  font-size: 40px;
+  padding-bottom: 50px;
+}
+
+.CONTACT-top {
+  
+  background-color: #fff;
+  width: 90%;
+  
+  
+  
+  
+}
+
+.CONTACT-top li {
+  padding-left: 200px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+  width: 100%;
+}
+
+footer {
+  padding: 30px 0;
+  background-color: rgb(147, 20, 231);
+}
+
+.footer-gnav {
+  
+}
+
+.footer-gnav ul {
+  
+}
+
+.footer-gnav li {
+  display: inline-block;
+  text-align: center;
+  padding: 0 20px;
+}
+
+/* ページトップボタン */
+.page-top {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  z-index: 99;
+}
+
+.page-top img {
+  width: 65px;
+  height: 65px;
+}
