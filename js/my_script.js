@@ -86,7 +86,7 @@ $(function(){
     }
     else {
       $('.Prefecture-SHIGA img').css('visibility','visible');
-      $('.Prefecture-SHIGA img').toggleClass('animated fadeInLeft');
+      $('.Prefecture-SHIGA img').toggleClass('animated fadeInRight');
     }
   },{offset: '50%'}
   );
@@ -98,7 +98,7 @@ $(function(){
     }
     else {
       $('.Prefecture-NARA img').css('visibility','visible');
-      $('.Prefecture-NARA img').toggleClass('animated fadeInRight');
+      $('.Prefecture-NARA img').toggleClass('animated fadeInLeft');
     }
   },{offset: '50%'}
   );
