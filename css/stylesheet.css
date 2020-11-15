@@ -1,0 +1,210 @@
+
+
+/* ページトップボタン */
+.page-top {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 99;
+}
+  
+.page-top img {
+    width: 65px;
+    height: 65px;
+}
+
+/* ヘッダー部スタイル設定 */
+
+header {
+    background:rgba(255,0,0,0.5);
+    
+    height: 100px;
+    position: sticky;
+    top: 0;
+}
+
+#site_logo {
+    float: left;
+   
+}
+
+#site_logo img {
+    width: 100px;
+    height: 50px;
+    padding-top: 20px;
+}
+
+.header-right {
+    padding-right: 70px;
+}
+
+.header-right ul {
+    float: right;
+    padding-right: 30px;
+    padding-top: 20px;
+    background-color: rgb(62, 197, 238);
+    border-radius: 100px;
+}
+
+.header-right li {
+    float: left;
+    list-style: none;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+/* メイン部スタイル設定 */
+main {
+    
+}
+
+.Title　{
+  height: 740px;  
+}
+
+.Title img {
+    
+    width: 70%;
+    height: 400px;
+    padding-left: 220px;
+    padding-bottom: 50px;
+    
+}
+
+.Title h1 {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.text {
+    font-size: 30px;
+    width: 70%;
+    padding-left: 220px;
+}
+
+.nav {
+ 
+ padding-left: 220px;
+ padding-bottom: 10px;
+  border:　4px solid;
+  padding-top: 10px;
+  
+
+}
+
+#spnavi {
+    background-color: rgb(243, 231, 231);
+    width: 100px;
+    border-radius: 50px;
+    padding-right: 30px;
+}
+
+
+
+
+#drop_menu_text {
+    color: coral;
+    font-size: 18px;
+    list-style: none;
+   
+
+
+}
+
+#drop_menu_hidden {
+    background-color: rgb(243, 231, 231);
+    width: 60%;
+    display:none;
+}
+
+a  {
+    list-style: none;
+}
+
+.Prefecture-aria {
+   padding-left: 220px;
+}
+
+.Prefecture-title {
+     width: 70%;
+    background-color: burlywood;
+}
+
+.Prefecture-title　h1 {
+   
+}
+
+.Prefecture-aria img {
+    width: 70%;
+    height: 500px;
+    visibility: hidden;
+}
+
+.Prefecture p {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#summarize {
+    padding-left: 220px;
+    padding-bottom: 50px;
+    
+    
+}
+
+#summarize h2 {
+    background-color: burlywood;
+    width: 70%;
+    
+    
+}
+
+#summarize p {
+    padding-top: 20px;
+}
+
+footer {
+    height: 100px;
+    background-color: darkcyan;
+}
+
+.footer-left {
+    float: left;
+    padding-top: 20px;
+}
+
+.footer-left h1 {
+    font-size: 20px;
+  
+}
+
+.footer-left ul {
+    float: left;
+   
+    
+}
+
+.footer-left li {
+    float: left;
+    list-style: none;
+    padding-left: 10px;
+    
+}
+
+.footer-right  {
+    list-style: none;
+    float: right;
+    padding-top: 20px;
+    padding-right: 100px;
+   
+}
+
+
+
+
+
+
+
+
+
